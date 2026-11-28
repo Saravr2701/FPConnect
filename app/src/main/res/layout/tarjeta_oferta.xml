@@ -42,5 +42,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="Inscribirse"
-        android:backgroundTint="#579DE2" />
+        android:backgroundTint="@color/fondo_botones" />
 </LinearLayout>
