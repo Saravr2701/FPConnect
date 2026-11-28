@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo_tarjeta_oferta">
+
+    <TextView
+        android:id="@+id/nombreEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la empresa"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#005590" />
+
+    <TextView
+        android:id="@+id/nombrePuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nombre del puesto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#0085EF" />
+
+    <TextView
+        android:id="@+id/descripcionPuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Descripción de las prácticas"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+    <Button
+        android:id="@+id/btnInscribirse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Inscribirse"
+        android:backgroundTint="#579DE2" />
+</LinearLayout>
